@@ -1,0 +1,59 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${ZCODE_PLUGIN_ROOT}/scripts/te-hook\" --host zcode",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${ZCODE_PLUGIN_ROOT}/scripts/te-hook\" --host zcode",
+            "timeout": 20
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${ZCODE_PLUGIN_ROOT}/scripts/te-hook\" --host zcode",
+            "timeout": 60
+          }
+        ]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${ZCODE_PLUGIN_ROOT}/scripts/te-hook\" --host zcode",
+            "timeout": 60
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${ZCODE_PLUGIN_ROOT}/scripts/te-hook\" --host zcode",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

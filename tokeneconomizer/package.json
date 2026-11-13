@@ -1,0 +1,13 @@
+{
+  "name": "@zcode/tokeneconomizer-plugin",
+  "version": "0.1.4",
+  "private": true,
+  "license": "Apache-2.0",
+  "description": "TokenEconomizer for ZCode: learned repository facts injected at session start, session cost from ZCode's own usage, and a guard for turns stuck in a failing loop.",
+  "keywords": [
+    "cost",
+    "tokens",
+    "context",
+    "hooks"
+  ]
+}

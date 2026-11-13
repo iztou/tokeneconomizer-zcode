@@ -1,0 +1,17 @@
+{
+  "name": "tokeneconomizer",
+  "version": "0.1.4",
+  "description": "TokenEconomizer for ZCode: learned repository facts injected at session start, session cost from ZCode's own usage, and a guard for turns stuck in a failing loop.",
+  "author": {
+    "name": "TokenEconomizer contributors"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/microsoft/TokenEconomizer",
+  "repository": "https://github.com/microsoft/TokenEconomizer",
+  "keywords": [
+    "cost",
+    "tokens",
+    "context",
+    "hooks"
+  ]
+}

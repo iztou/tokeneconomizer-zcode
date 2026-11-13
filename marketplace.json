@@ -1,0 +1,26 @@
+{
+  "name": "tokeneconomizer-zcode",
+  "version": 1,
+  "description": "TokenEconomizer marketplace for ZCode",
+  "owner": {
+    "name": "TokenEconomizer authors"
+  },
+  "plugins": [
+    {
+      "name": "tokeneconomizer",
+      "version": "0.1.4",
+      "description": "TokenEconomizer for ZCode: learned repository facts injected at session start, session cost from ZCode's own usage, and a guard for turns stuck in a failing loop.",
+      "displayName": "TokenEconomizer",
+      "displayName_i18n": {
+        "zh-CN": "TokenEconomizer"
+      },
+      "description_i18n": {
+        "zh-CN": "跨会话学习仓库事实并在会话启动时注入;按 ZCode 自身的用量表为每个会话记账;失败循环守卫。上游 microsoft/TokenEconomizer 的 ZCode 移植,Apache-2.0。"
+      },
+      "categories": [
+        "developer-tools"
+      ],
+      "source": "./tokeneconomizer"
+    }
+  ]
+}
